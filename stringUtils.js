@@ -1,0 +1,1 @@
+console.log("lets find a random object from a string");
