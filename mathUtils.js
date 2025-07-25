@@ -1,5 +1,3 @@
-import _ from "mathUtils.js";
-
 console.log("lets do the math!");
 
 var a = 25;
