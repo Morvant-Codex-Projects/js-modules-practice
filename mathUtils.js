@@ -1,23 +1,15 @@
+import  ("math.js");
+
 console.log("lets do the math!");
 
-var a = 25;
-var b = 10;
-var c = 5;
-
-/**
- * @param {[number]} mathMultiply
- * @returns {void}
- */
 
 
-function mathMultiply() {
-    Math.pow(a,c).mathMultiply;
-   return function(mathMultiply(Math.pow))
-}
-
-function algebraBasics() {
-    let a+b*c = algebraBasics;
-    console.log(algebraBasics);
-}
-
-export {mathMultiply, algebraBasics}
+const numbers = [2,4,6,8,14,16,18,20,31];
+const maxValue = math.max(numbers);
+console.log('Maximum Value:', maxValue);
+const minValue = math.min(numbers);
+console.log('Minimum Value:', minValue);
+const averageValue = math.mean(numbers);
+console.log('Average Value:', averageValue);
+const sumValue = math.sum(numbers);
+console.log('Sum:', sumValue);
