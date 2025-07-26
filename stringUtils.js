@@ -1,9 +1,11 @@
-console.log("lets find a random object from a string");
+import chalk, { chalkStderr } from "chalk";
 
-const greetings =["hey yall", "hello", "bonjour", "hola"];
+console.log(chalk.bgMagentaBright("lets find a random object from a string"));
 
-export function randomGreeting(greetings) {
-    const randomNumber = Math.floor.greetings.random((0), randomGreeting.length);
-    return randomNumber[0];
-    console.log(randomNumber[0] + ",it's a beautiful day in the neighorhood.");
+const greetings = ["hey yall","Hola","hello","whats up doc?","bonjour"];
+
+export function toUpperCase(str) {
+    return str.toUpperCase();
 }
+
+console.log(toUpperCase());
