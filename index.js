@@ -1,9 +1,7 @@
-import { algebraBasics, mathMultiply } from "./mathUtils";
+import { mathPower, squareRooter } from "./mathUtils.js" 
+import chalk from "chalk";
 
-var a = 25;
-var b = 10;
-var c = 5;
+console.log(chalk.bgCyanBright("index.js works :)"));
 
-mathMultiply(Math.pow)
-
-console.log(Math.pow);
+console.log(mathPower(4,4));
+console.log(chalk.blueBright(squareRooter(79)));
