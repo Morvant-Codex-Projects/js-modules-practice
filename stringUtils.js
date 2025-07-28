@@ -1,5 +1,5 @@
 import chalk, { chalkStderr } from "chalk";
-import _ from "lodash.js";
+
 
 console.log(chalk.bgMagentaBright("lets play with a string"));
 
@@ -7,7 +7,7 @@ const greetings = ["hey yall","Hola","hello","whats up doc?","bonjour"];
 
 /**
  * 
- * @param {[string]}
+ * @param {[string]} 
  * @returns {[string]} returns each greeting capitilized
  * 
  */
