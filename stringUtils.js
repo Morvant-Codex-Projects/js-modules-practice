@@ -11,15 +11,20 @@ const greetings = ["hey yall","Hola","hello","whats up doc?","bonjour"];
  * @returns {[string]} returns each greeting capitilized
  * 
  */
-export function capitlizeString(){
-    return greetings.capitlizeString(String.forEach(element => {
-    
-}));
+export function upperCaseGreetings(){
+     greetings.forEach(greeting =>{
+        console.log(greeting.toUpperCase() + " its a beautiful day in the neighborhood");
+     })
     
 }
-console.log((greetings) + " its a beautiful day in the neighborhood");
 
 
+export function lowerCaseGreetings(){
+     greetings.forEach(greeting =>{
+        console.log(greeting.toLowerCase() + " its a beautiful day in the neighborhood");
+     })
+    
+}
     
 
 
